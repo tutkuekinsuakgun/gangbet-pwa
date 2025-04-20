@@ -1,0 +1,79 @@
+/* wallet.component.css */
+
+.wallet-container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(69, 69, 69, 0.15), rgba(69, 69, 69, 0.15)), rgba(128, 128, 128, 0.3);
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .wallet-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .wallet-header h1 {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .wallet-header .balance {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .wallet-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .wallet-actions button {
+    background-color: #3b82f6;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+  }
+  
+  .wallet-body {
+    padding-top: 20px;
+  }
+  
+  .wallet-body h2 {
+    color: #ffffff;
+  }
+  
+  .bet-history {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bet {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .claim {
+    background-color: #34d399;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .navbar button {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  

@@ -1,0 +1,11 @@
+{
+    "tailwindCSS.includeLanguages": {
+      "html": "html",
+      "typescript": "html"
+    },
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "css.lint.unknownAtRules": "ignore"
+  }
+  
