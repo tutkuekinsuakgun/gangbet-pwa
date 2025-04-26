@@ -1,13 +1,23 @@
-<!-- wallet.component.html -->
 <div class="wallet-container">
     <div class="wallet-header">
       <h1>GANGBET 💥</h1>
       <p class="balance">4,350.5 USDC</p>
       <div class="wallet-actions">
-        <button class="deposit">Deposit</button>
+        <!-- Custom Deposit Button with SVG Icon -->
+        <button class="deposit-button">
+            <!-- Sağdaki QR code simgesi, assets klasöründen çekiliyor -->
+            <img src="assets/qrcode.svg" alt="QR Code" width="24" height="24">
+            Deposit
+          </button>
+          
+          
+                
+  
+        <!-- Send Button -->
         <button class="send">Send</button>
       </div>
     </div>
+  
     <div class="wallet-body">
       <h2>Claim Rewards</h2>
       <div class="bet-history">
@@ -17,6 +27,7 @@
         </div>
       </div>
     </div>
+  
     <div class="navbar">
       <button class="feed">Feed</button>
       <button class="profile">Profile</button>
